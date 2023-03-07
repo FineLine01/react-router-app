@@ -1,3 +1,5 @@
+import { Outlet } from "react-router-dom";
+
 function MainLayout(props){
     return (
       <div className="main-layout">
@@ -11,7 +13,7 @@ function MainLayout(props){
                 </ul>
             </header>
 
-            {props.children}
+            {Outlet}
 
       </div> 
     )
