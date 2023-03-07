@@ -6,7 +6,7 @@ function MainLayout(props){
             <header>
                 <ul>
                     <li><a href="/">Monday</a></li>
-                    <li><a href="tuesday">Tuesday</a></li>
+                    <li><a href="/tuesday">Tuesday</a></li>
                     <li><a href="wednesday">Wednesday</a></li>
                     <li><a href="thursday">Thursday</a></li>
                     <li><a href="friday">Friday</a></li>

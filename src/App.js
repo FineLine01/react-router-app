@@ -13,14 +13,14 @@ import './App.css';
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<MainLayout />}>
-            <Route index element={<Monday />} />
+    <MainLayout />
+      <Routes>    
+            <Route path="/" index element={<Monday />} />
+            <Route path="monday" element={<Monday />} />
             <Route path="tuesday" element={<Tuesday />} />
             <Route path="wednesday" element={<Wednesday />} />
             <Route path="thursday" element={<Thursday />} />
             <Route path="friday" element={<Friday />} />
-        </Route>
       </Routes>
     </BrowserRouter>
   );
