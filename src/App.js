@@ -16,10 +16,10 @@ function App() {
       <Routes>
         <Route path="/" element={<MainLayout />}>
             <Route index element={<Monday />} />
-            <Route element={<Tuesday />} />
-            <Route element={<Wednesday />} />
-            <Route element={<Thursday />} />
-            <Route element={<Friday />} />
+            <Route path="tuesday" element={<Tuesday />} />
+            <Route path="wednesday" element={<Wednesday />} />
+            <Route path="thursday" element={<Thursday />} />
+            <Route path="friday" element={<Friday />} />
         </Route>
       </Routes>
     </BrowserRouter>
