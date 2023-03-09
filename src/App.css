@@ -6,3 +6,15 @@
   list-style: none;
   padding: 1rem;
 }
+
+.greenBG {
+  background: green;
+  color: #fff;
+  font-size:2rem;
+}
+
+.redBG {
+  background: red;
+  color: #fff;
+  font-size:2rem;
+}

@@ -1,10 +1,28 @@
+import Pizza from "../pages/pizza.js";
 function Tuesday(){
+   
     return (
         <>
             <h1>Today is Tuesday</h1>
             <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem dolore veritatis maxime dignissimos quis! Deleniti tenetur numquam explicabo ducimus! Laborum perferendis corporis deleniti fuga amet repellendus quibusdam aut asperiores impedit?
+                🍕Pizza?
             </p>
+            <Pizza 
+                name="Cheese pizza 😍"
+                ingredients={["🧀cheese", "🍅Tomato"]}
+            />
+
+<Pizza 
+                name="Hawaiian pizza 🏝"
+                ingredients={["🧀cheese", "🍅Tomato","🍍pineapple" ]}
+            />
+
+<Pizza 
+                name="Pepperoni pizza 🥵"
+                ingredients={["🧀cheese", "🍅Tomato","🌶Chilli Pepper" ]}
+            />
+
+            
         </>
     )
 }
