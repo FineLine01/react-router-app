@@ -1,5 +1,3 @@
-import MainLayout from "../layout/main";
-
 function Monday(){
     return (
         <>
